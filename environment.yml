@@ -1,0 +1,16 @@
+name: healthcare-mmm-pymc
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas
+  - numpy
+  - matplotlib
+  - scipy
+  - scikit-learn
+  - pymc
+  - arviz
+  - pip
+  - pip:
+      - pymc-marketing
+      - streamlit

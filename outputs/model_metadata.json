@@ -1,0 +1,42 @@
+{
+  "project": "Healthcare Lead Generation MMM with PyMC-Marketing",
+  "grain": "weekly",
+  "weeks": 104,
+  "primary_kpi": "qualified_calls",
+  "secondary_kpi": "appointment_bookings",
+  "channels": [
+    "Google Search",
+    "Meta",
+    "YouTube",
+    "Display"
+  ],
+  "expected_value_per_qualified_call_usd": 225.0,
+  "note": "Dataset is synthetic, built for portfolio demonstration and method testing. It intentionally includes seasonality, correlated channels, carryover, diminishing returns, capacity constraints, competitive pressure and call-tracking quality issues.",
+  "simulated_parameters": {
+    "google_search_spend": {
+      "alpha": 0.24,
+      "lambda": 4.3,
+      "midpoint": 14500,
+      "scale_calls": 125
+    },
+    "meta_spend": {
+      "alpha": 0.47,
+      "lambda": 3.25,
+      "midpoint": 11800,
+      "scale_calls": 92
+    },
+    "youtube_spend": {
+      "alpha": 0.72,
+      "lambda": 2.65,
+      "midpoint": 12600,
+      "scale_calls": 59
+    },
+    "display_spend": {
+      "alpha": 0.55,
+      "lambda": 2.15,
+      "midpoint": 7600,
+      "scale_calls": 34
+    }
+  },
+  "reference_model": "Stabilized transformed regression with posterior-style uncertainty for output generation; PyMC-Marketing implementation template is included in src/pymc_marketing_reference.py."
+}

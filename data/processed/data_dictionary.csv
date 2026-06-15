@@ -1,0 +1,18 @@
+field,business_definition,unit
+week_start,Start date of each weekly observation,date
+google_search_spend,Weekly paid search investment,USD
+meta_spend,Weekly Meta/Facebook/Instagram investment,USD
+youtube_spend,Weekly YouTube investment,USD
+display_spend,Weekly display/programmatic investment,USD
+qualified_calls,Primary response variable for healthcare lead generation,count
+appointment_bookings,Secondary conversion variable after qualified call screening,count
+flu_season_index,Healthcare seasonal demand proxy,0-1
+holiday_week,Holiday disruption/commercial season indicator,binary
+back_to_school_week,Seasonal planning period indicator,binary
+clinic_capacity_index,Operational service capacity proxy,index
+competitor_pressure_index,Competitive pressure proxy,0-1
+tracking_quality_index,Call tracking quality proxy,0-1
+tracking_disruption_flag,Flag for simulated tracking degradation,binary
+*_adstock,Generated carryover state for media channel,transformed spend
+*_saturation,Generated diminishing-return state for media channel,0-1
+*_true_incremental_calls,"Known simulated contribution, retained only for validation in this POC",calls

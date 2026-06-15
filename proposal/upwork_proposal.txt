@@ -1,0 +1,26 @@
+Hi,
+
+I can help you build the first healthcare MMM in PyMC-Marketing and turn it into a decision-ready measurement layer for channel ROI, marginal returns, and budget recommendations.
+
+One relevant asset I can share is a healthcare-oriented PyMC-Marketing MMM reference implementation for lead generation measurement. It uses 24 months of weekly simulated-but-realistic data across Google Search, Meta, YouTube and Display, with qualified calls and appointment bookings as KPIs.
+
+The implementation mirrors this use case:
+- PyMC-Marketing MMM structure with adstock and saturation
+- Weekly media spend and call-tracking-style conversion data
+- Healthcare lead-generation KPI
+- Controls for seasonality, capacity, competitive pressure and tracking quality
+- Channel contribution, ROI, marginal ROI, saturation curves and budget allocation outputs
+- Streamlit dashboard for business-facing interpretation
+- README and methodology documentation covering priors, assumptions, validation and limitations
+
+My fixed-price bid is $7,000.
+
+Milestone 1 - Data audit and model specification: $1,200
+Milestone 2 - PyMC-Marketing pipeline in SageMaker: $2,400
+Milestone 3 - Tuning, calibration and validation: $1,900
+Milestone 4 - Streamlit dashboard and handoff: $1,500
+
+Assuming data access and the SageMaker container are ready from day one, I can deliver a working first model and dashboard MVP within the first two weeks. I would use the remaining project window for calibration, validation, prior tuning, documentation and final budget recommendations.
+
+One question about scope:
+Do you have any calibration signal available - lift tests, geo tests, holdout periods, campaign experiments, or prior business constraints on expected ROI by channel - or should the first version rely mainly on domain-informed priors, posterior predictive validation and business plausibility checks?

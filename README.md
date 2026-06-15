@@ -76,6 +76,6 @@ This implementation is designed around a practical market-response philosophy: s
 
 This repository uses simulated data. It is designed as a reference implementation for portfolio demonstration, technical evaluation, and client scoping. It should not be presented as real client data.
 
-## Suggested Upwork Framing
+## Portfolio Summary
 
 > I maintain a healthcare-oriented PyMC-Marketing MMM reference implementation for lead generation measurement. It uses 24 months of weekly simulated-but-realistic data across Google Search, Meta, YouTube, and Display, with qualified calls and appointment bookings as KPIs. The model includes adstock, saturation, priors, validation logic, ROI/mROAS outputs, budget allocation, and a Streamlit dashboard.
